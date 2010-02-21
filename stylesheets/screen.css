@@ -4,7 +4,8 @@ GENERAL
 -------------------------------------------------*/
  
 body {
-  margin: 10px 0 0 0; padding: 0;
+  margin: 10px 0 0 0; 
+  padding: 0;
   font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;
   color: #333;
   background: #fff url(../images/topbluefade.gif) repeat-x;
@@ -139,7 +140,7 @@ div#ImageHeader {
 div#ImageHeader h1,
 div#ImageHeader p {
   font-size: 10px;
-  margin: 0 0 0 -3000px;
+  margin: 0 -3000px 0 0;
 }
  
 /*-------------------------------------------------
@@ -164,7 +165,7 @@ div.producttable table td {
   width: 199px;
   vertical-align: top;
   padding: 3px;
-  text-align: left;
+  text-align: right;
 }
  
 div.producttable table td h2 a {
@@ -211,8 +212,8 @@ MAIN COLUMN
  
 div.maincol {
         width: 425px;
-        text-align: left;
-        float: left;
+        text-align: right;
+        float: right;
 }
  
 div.maincol p {
@@ -263,9 +264,9 @@ SIDE COLUMN
 -------------------------------------------------*/
  
 div.sidecol {
-        float: right;
+        float: left;
         width: 260px;
-        text-align: left;
+        text-align: right;
         padding: 0;
         margin: 0;
 }
@@ -284,12 +285,12 @@ div.sidecol p {
         line-height: 14px;
         margin: 0 0 15px 0;
         padding: 0;
-  clear: left;
+  clear: right;
 }
  
 div.sidecol p img.qt {
   padding: 0 5px 5px 0;
-  float: left;
+  float: right;
 }
  
 /*-------------------------------------------------
@@ -320,10 +321,10 @@ div#Footer img {
  
  
 /*-------------------------------------------------
-COPYRIGHT
+COPYleft
 -------------------------------------------------*/
  
-div.copyright {
+div.copyleft {
   font-size: 11px;
   color: #666;
 }
@@ -351,25 +352,25 @@ div.message {
 body.overview div.content {
         width: 700px;
         margin: 40px auto 0px auto;
-        text-align: left;
+        text-align: right;
 }
  
  
 body.overview div.content div.sub {
-        float: left;
+        float: right;
         width: 200px;
-        text-align: right;
+        text-align: left;
 }
  
 body.overview div.content div.sub h1 {
         font-family: georgia;
         font-size: 28px;
         font-weight: normal;
-        text-align: right;
+        text-align: left;
 }
  
 body.overview div.content div.main {
-        float: right;
+        float: left;
         width: 450px;
 }
  
@@ -382,7 +383,7 @@ body.overview div.content table.productgrid img {
 body.overview div.content table.productgrid p {
         font-size: 10px;
         font-family: verdana;
-        text-align: left;
+        text-align: right;
 }
  
 body.overview div.content table.productgrid {
@@ -390,7 +391,7 @@ body.overview div.content table.productgrid {
 }
  
 body.overview div.content table.productgrid td {
-        text-align: left;
+        text-align: right;
 }
  
 body.overview div.content p, body.overview div.content p.noindent {
@@ -437,7 +438,7 @@ body.overview div.content h2 span {
 }
  
 body.overview div.content img {
-        margin: 0 10px 5px 0;
+        margin: 0 0 5px 10px;
 }
  
 body.overview div.Container {
@@ -470,7 +471,7 @@ body.overview cite a, body.overview cite a:visited {
 body.overview div.content cite {
         font-size: 14px;
         color: #A69E8A;
-        margin-left: 25px;
+        margin-right: 25px;
 }
  
 body.overview div.content a:hover {
@@ -533,7 +534,7 @@ div.slivers p {
 div.slivers li {
         font-size: 9px;
         list-style: none;
-        text-align: left;
+        text-align: right;
         margin: 0; padding: 0;
 }
  
@@ -569,9 +570,9 @@ a.no_link_hover:hover { background: none !important; }
 CASE STUDY
 -------------------------------------------------*/
 body.casestudy span.pullquote {
-        float: right;
-        border-left: 1px solid #ccc;
-        padding: 0 0 0 10px;
+        float: left;
+        border-right: 1px solid #ccc;
+        padding: 0 10px 0 0;
         margin: 20px;
         width: 150px;
         font-size: 12px;
@@ -594,7 +595,7 @@ body.casestudy div.sub h2 {
         margin: 0; !important
         padding: 0; !important
         text-indent: 0;
-        text-align: right;
+        text-align: left;
 }
  
 body.casestudy div.sub p {
