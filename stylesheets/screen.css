@@ -10,6 +10,7 @@ body {
   color: #333;
   background: #fff url(../images/topbluefade.gif) repeat-x;
   text-align: center;
+  direction:rtl;
 }
  
 a:link, a:visited { color: #000; text-decoration: underline; }
@@ -31,7 +32,17 @@ pre { width: 100%; padding-bottom: 24px; }
         clear: both;
         font-size: 2px;
 }
- 
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+	zoom:1;
+    visibility: hidden;
+}
+
+
 .clearallrule {
         border-bottom: 1px solid #ccc;
 }
@@ -347,6 +358,19 @@ body.overview h1 span {
  
 div.message {
         margin: 50px auto 10px auto;
+		background:url(../images/rails.png) right center no-repeat;
+		padding-right:90px;
+}
+
+div.message h1 {
+	padding:0;
+	margin:0;
+	font-weight:bolder;
+}
+
+div.message p {
+	font-size:1.3em;
+	margin-top:3px;
 }
  
 body.overview div.content {
